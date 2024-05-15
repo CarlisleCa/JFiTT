@@ -21,6 +21,7 @@ mvn compile
 ```
 
 Uruchom wybrany algorytm, podając niepusty wzorzec i ścieżkę do pliku:
+Ścieżki względne są liczone od katalogu, w którym uruchamiasz program.
 
 ```bash
 java -cp target/classes pl.pattern.search.FA "<wzorzec>" "<ścieżka-do-pliku>"
