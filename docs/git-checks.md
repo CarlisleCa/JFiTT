@@ -24,3 +24,11 @@ git diff --cached
 - `--cached` pokazuje pełną treść przygotowanych zmian.
 
 Po poprawieniu znalezionych problemów ponownie dodaj zmienione pliki do staging area.
+
+## Usunięcie pliku ze stagingu
+
+```bash
+git restore --staged docs/git-checks.md
+```
+
+To polecenie usuwa plik ze staging area i pozostawia jego zmiany w katalogu roboczym.
